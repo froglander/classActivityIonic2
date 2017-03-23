@@ -2,7 +2,11 @@
   "name": "patientmanagement",
   "version": "1.1.1",
   "description": "patientManagement: An Ionic project",
-  
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
 
   "dependencies": {
     "gulp": "^3.5.6",
